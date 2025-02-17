@@ -1,0 +1,23 @@
+{
+  "name": "bddcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.0.2",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.19.5",
+    "multiple-cucumber-html-reporter": "^3.9.0"
+  },
+  "dependencies": {
+    "bddcypress": "file:"
+  }
+}
